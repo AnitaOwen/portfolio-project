@@ -6,3 +6,11 @@ randomJokeButton.addEventListener('click', () => {
       .then((data) => displayJoke(data))
       .catch((error) => console.log(error))
 })
+
+const programmingJokeButton = document.querySelector('#programming-joke-button')
+programmingJokeButton.addEventListener('click', () => {
+  fetch(`https://official-joke-api.appspot.com/jokes/programming/random`)
+  .then((response) => response.json())
+  .then((data) => displayProgrammingJoke(data[0]))
+  .catch((error) => console.log(error))
+})
