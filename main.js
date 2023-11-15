@@ -14,3 +14,17 @@ programmingJokeButton.addEventListener('click', () => {
   .then((data) => displayProgrammingJoke(data[0]))
   .catch((error) => console.log(error))
 })
+
+const categoryForm = document.querySelector('.category-form')
+categoryForm.addEventListener('submit', (event) => {
+  event.preventDefault()
+  const selectedCategory = event.target.category.value
+
+  if (selectedCategory === 'puns') {
+    fetchAndDisplayPun()
+  } else if (selectedCategory === 'christmas'){
+    fetchAndDisplayChristmas()
+  }
+})
+
+

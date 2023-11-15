@@ -9,13 +9,6 @@ function displayProgrammingJoke(joke){
     <p class="hidden">${joke.punchline}</p>
     <button class=show-answer>Show Answer</button>`
 
-    const showAnswerButton = article.querySelector('.show-answer')
-    const answer = article.querySelector('.hidden')
-    
-    showAnswerButton.addEventListener("click", () => {
-        answer.classList.remove('hidden')
-        showAnswerButton.classList.add('hidden')
-    })
-
+    showAnswer(article)
     main.append(article)
 }
