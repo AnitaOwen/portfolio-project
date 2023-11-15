@@ -26,6 +26,8 @@ categoryForm.addEventListener('submit', (event) => {
     fetchAndDisplayChristmas()
   } else if(selectedCategory === 'spooky'){
     fetchAndDisplaySpooky()
+  } else if(selectedCategory === 'misc'){
+    fetchAndDisplayMisc()
   }
 })
 
