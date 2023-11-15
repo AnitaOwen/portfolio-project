@@ -20,10 +20,12 @@ categoryForm.addEventListener('submit', (event) => {
   event.preventDefault()
   const selectedCategory = event.target.category.value
 
-  if (selectedCategory === 'puns') {
+  if(selectedCategory === 'puns') {
     fetchAndDisplayPun()
-  } else if (selectedCategory === 'christmas'){
+  } else if(selectedCategory === 'christmas'){
     fetchAndDisplayChristmas()
+  } else if(selectedCategory === 'spooky'){
+    fetchAndDisplaySpooky()
   }
 })
 
