@@ -20,15 +20,16 @@
 5. Mobile/Tablet User:
 >As a user, I want the app to be responsive to different screen sizes, so I can have an enjoyable experience regardless of the device I'm using.
 
+
 Possible addons:
-- a trivia section that just displays random Computer related questions  
-
-- a fact generator with random useless facts.
-
-- a fact generator with random interesting facts.
 
 - option to set a timer to time my breaks while using this app so I know when to go back to work.
 
+- a fact generator with random useless facts.
+https://uselessfacts.jsph.pl/
+
+- a trivia section that just displays random Computer related questions
+https://opentdb.com/browse.php?query=computers&type=Category#computers
 
 
 
