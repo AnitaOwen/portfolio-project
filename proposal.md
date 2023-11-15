@@ -14,8 +14,9 @@
 >As a user, I want the option to choose from different joke categories such as "Christmas," "Spooky," "Pun," and "Dark," so I can tailor the humor to my mood or preferences.
 
 
-4. Category Specificity:
->As a user, after selecting a specific category like "Spooky," I want to receive jokes related to that category specifically, ensuring a more personalized and enjoyable experience.
+4. Search Functionality:
+> As a user, I would like the ability to search for a joke by entering a keyword.
+
 
 5. Mobile/Tablet User:
 >As a user, I want the app to be responsive to different screen sizes, so I can have an enjoyable experience regardless of the device I'm using.
