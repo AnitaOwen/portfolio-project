@@ -1,0 +1,16 @@
+html,
+body {
+  color: #0f0e0e;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+.button-container {
+  border: 2px solid red;
+}
+
+
+.hidden {
+  display: none;
+}

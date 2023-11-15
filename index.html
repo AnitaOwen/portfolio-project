@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOLgorithm - Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <!-- <script src="displayPun.js" defer></script> -->
+    <script src="displayJoke.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>LOLgorithm - Joke Generator</h1>
+    </header>
+
+    <p>Take a break, hear a joke!</p>
+    <section class="button-container">
+        <button class="button" id="random-joke-button">Random Joke</button>
+        <button class="button" id="programming-joke-button">Random Programming Joke</button>
+        <button class="button" id="select-category-button">Select a Category</button>
+        <button class="button" id="search-keyword-button">Search By Keyword</button>
+    </section>
+    
+    <form class="category-form">
+        <label for="puns">
+            <input type="radio" id="puns" name="category" value="puns"> Puns
+        </label>
+        <label for="christmas">
+            <input type="radio" id="christmas" name="category" value="christmas"> Christmas
+        </label>
+        <label for="spooky">
+            <input type="radio" id="spooky" name="category" value="spooky"> Spooky
+        </label>
+        <label for="misc">
+            <input type="radio" id="misc" name="category" value="misc"> Misc.
+        </label>
+        <button type="submit" id="make-me-laugh-button" class="button">Make me laugh!</button>
+    </form>
+
+    <main class="joke-container">
+    </main>
+</body>
+</html>

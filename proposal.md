@@ -1,6 +1,10 @@
 # User Stories
 
-#### API: https://jokeapi.dev/
+#### API: 
+jokes https://jokeapi.dev/
+jokes with categories https://github.com/15Dkatz/official_joke_api
+puns https://www.punapi.rest/
+
 
 1. Random Joke Seeker:
 >As a user, I want to be able to click on a "Random Joke" button on the homepage, so I can quickly get a laugh without selecting a specific category.
