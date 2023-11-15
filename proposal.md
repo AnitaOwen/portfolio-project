@@ -15,7 +15,6 @@
 
 
 4. Category Specificity:
-
 >As a user, after selecting a specific category like "Spooky," I want to receive jokes related to that category specifically, ensuring a more personalized and enjoyable experience.
 
 5. Mobile/Tablet User:
@@ -24,13 +23,11 @@
 Possible addons:
 - a trivia section that just displays random Computer related questions  
 
+- a fact generator with random useless facts.
+
 - a fact generator with random interesting facts.
 
 - option to set a timer to time my breaks while using this app so I know when to go back to work.
-
-
-
-
 
 
 
