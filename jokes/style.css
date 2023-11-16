@@ -47,10 +47,22 @@ body {
 }
 
 .joke-container {
-  border: 2px solid red;
+  border: 2px solid gray;
   width: 700px;
   margin: 0 auto;
   background-color: rgba(255, 255, 109, 0.781);
   border-radius: 12px;
   font-size: 22px;
+}
+
+.category-form label {
+  /* border: 2px solid red; */
+  margin: 10px;
+}
+
+#make-me-laugh-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+
 }
