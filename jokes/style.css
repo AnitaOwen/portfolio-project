@@ -11,7 +11,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 20px;
-  background-color: lightgreen;
+  background-color: rgb(194, 253, 194);
   color: darkcyan;
 }
 
@@ -44,4 +44,13 @@ body {
 }
 .hidden {
   display: none;
+}
+
+.joke-container {
+  border: 2px solid red;
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 109, 0.781);
+  border-radius: 12px;
+  font-size: 22px;
 }
