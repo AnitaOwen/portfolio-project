@@ -6,22 +6,42 @@ body {
   padding: 0;
 } 
 .navbar {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 20px;
+  background-color: lightgreen;
+  color: darkcyan;
 }
+
 .links-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  font-size: 18px;
 }
 
 .link {
+  /* border: 2px solid red; */
   text-align: center;
 }
 
+.box {
+  /* border: 2px solid red; */
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin: 20px;
+
+}
+.or-container {
+  /* border: 2px solid red; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 24px;
+  margin: 0 auto;
+}
 .hidden {
   display: none;
 }
