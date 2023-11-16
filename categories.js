@@ -19,20 +19,20 @@ function fetchAndDisplayPun() {
 }
 
 function displayChristmas(joke){
-        const { setup, delivery } = joke
-        const main = document.querySelector('main')
-        main.innerHTML = ''
-        const article = document.createElement('article')
-        article.classList.add('joke')
-        article.innerHTML = `
-        <p>${joke.setup}</p>
-        <p class="hidden">${joke.delivery}</p>
-        <button class=show-answer>Show Answer</button>
-        <button class="another-one-button">Another One</button>`
-        showAnswer(article)
-        const anotherOneButton = article.querySelector('.another-one-button')
-        anotherOneButton.addEventListener('click', fetchAndDisplayChristmas)
-        main.append(article)
+    const { setup, delivery } = joke
+    const main = document.querySelector('main')
+    main.innerHTML = ''
+    const article = document.createElement('article')
+    article.classList.add('joke')
+    article.innerHTML = `
+    <p>${joke.setup}</p>
+    <p class="hidden">${joke.delivery}</p>
+    <button class=show-answer>Show Answer</button>
+    <button class="another-one-button">Another One</button>`
+    showAnswer(article)
+    const anotherOneButton = article.querySelector('.another-one-button')
+    anotherOneButton.addEventListener('click', fetchAndDisplayChristmas)
+    main.append(article)
 }
 
 function fetchAndDisplayChristmas() {
@@ -89,3 +89,4 @@ function fetchAndDisplayMisc() {
       .then((data) => displayMisc(data))
       .catch((error) => console.log(error));
 }
+

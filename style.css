@@ -4,11 +4,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-} */
-
-.button-container {
+} 
+.navbar {
   border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 20px;
 }
+
 
 
 .hidden {

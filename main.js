@@ -29,6 +29,7 @@ categoryForm.addEventListener('submit', (event) => {
   } else if(selectedCategory === 'misc'){
     fetchAndDisplayMisc()
   }
+  categoryForm.reset()
 })
 
 
