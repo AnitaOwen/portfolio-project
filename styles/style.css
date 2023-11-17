@@ -10,21 +10,25 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  padding: 20px;
+  padding: 8px 50px 8px 40px;
   background-color: rgb(194, 253, 194);
   color: darkcyan;
+}
+.title{
+  font-size: 22px;
 }
 
 .links-container {
   /* border: 2px solid red; */
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 7px;
   font-size: 18px;
 }
 
 .link {
   /* border: 2px solid red; */
-  text-align: center;
+  text-align: right;
 }
 
 .box {
