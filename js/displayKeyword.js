@@ -18,12 +18,12 @@ function displayKeyword(joke) {
 function fetchAndDisplayKeyword() {
     const keywordInput = document.querySelector('#keyword')
     const keyword = keywordInput.value
-    fetch(`https://v2.jokapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart&contains=${keyword}`)
+    fetch(`https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart&contains=${keyword}`)
       .then((response) => response.json())
       .then((data) => displayKeyword(data))
       .catch((error) => {
-        // console.log(error)
-        alert('Sorry, this feature unavailable. Please try again later.')
+        const main = document.querySelector('main')
+        main.innerHTML = 'This feature is currently unavailable, Please try again later.'
       })
 }
 

@@ -17,7 +17,7 @@ function fetchAndDisplayPun() {
       .then((data) => displayPun(data))
       .catch((error) => {
         console.log(error)
-        alert('Sorry, no puns available. Please try again later.')
+        alert('Sorry, no puns available. Please choose another category.')
       })
 }
 
