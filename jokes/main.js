@@ -36,5 +36,4 @@ const keywordForm = document.querySelector('.keyword-form')
 keywordForm.addEventListener('submit', (event) => {
   event.preventDefault()
   fetchAndDisplayKeyword()
-
 })
