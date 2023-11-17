@@ -1,10 +1,8 @@
 function displayJoke(joke){
-    const { setup, punchline } = joke
     const main = document.querySelector('main')
     main.innerHTML = ''
     const article = document.createElement('article')
     article.classList.add('joke')
-
     article.innerHTML = `
     <p>${joke.setup}</p>
     <p class="hidden">${joke.punchline}</p>

@@ -15,11 +15,13 @@ function fetchAndDisplayPun() {
     fetch('https://v2.jokeapi.dev/joke/Pun?blacklistFlags=nsfw,religious,racist,sexist,explicit&type=single')
       .then((response) => response.json())
       .then((data) => displayPun(data))
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error)
+        alert('Sorry, no puns available. Please try again later.')
+      })
 }
 
 function displayChristmas(joke){
-    const { setup, delivery } = joke
     const main = document.querySelector('main')
     main.innerHTML = ''
     const article = document.createElement('article')
@@ -39,11 +41,13 @@ function fetchAndDisplayChristmas() {
     fetch('https://v2.jokeapi.dev/joke/Christmas?blacklistFlags=nsfw,religious,racist,sexist,explicit&type=twopart')
       .then((response) => response.json())
       .then((data) => displayChristmas(data))
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error)
+        alert('Sorry, no Christmas jokes available. Please choose another category.')
+      })
 }
 
 function displaySpooky(joke){
-    const { setup, delivery } = joke
     const main = document.querySelector('main')
     main.innerHTML = ''
     const article = document.createElement('article')
@@ -63,11 +67,13 @@ function fetchAndDisplaySpooky() {
     fetch('https://v2.jokeapi.dev/joke/Spooky?blacklistFlags=nsfw,religious,racist,sexist,explicit&type=twopart')
       .then((response) => response.json())
       .then((data) => displaySpooky(data))
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error)
+        alert('Sorry, no Spooky jokes available. Please choose another category.')
+      })
 }
 
 function displayMisc(joke){
-    const { setup, delivery } = joke
     const main = document.querySelector('main')
     main.innerHTML = ''
     const article = document.createElement('article')
@@ -87,6 +93,9 @@ function fetchAndDisplayMisc() {
     fetch('https://v2.jokeapi.dev/joke/Miscellaneous?blacklistFlags=nsfw,religious,racist,sexist,explicit&type=twopart')
       .then((response) => response.json())
       .then((data) => displayMisc(data))
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error)
+        alert('Sorry, no misc. jokes available. Please choose another category.')
+      });
 }
 

@@ -1,8 +1,6 @@
 function displayKeyword(joke) {
-    const { setup, delivery } = joke
     const main = document.querySelector('main')
     main.innerHTML = ''
-
     if(joke.setup === undefined){
         main.innerHTML = 'There are no matches. Please try again!'
     } else {
@@ -14,17 +12,18 @@ function displayKeyword(joke) {
         <button class=show-answer>Show Answer</button>`
         showAnswer(article)
         main.append(article)
-
     }
-
 }
 
 function fetchAndDisplayKeyword() {
     const keywordInput = document.querySelector('#keyword')
     const keyword = keywordInput.value
-    fetch(`https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart&contains=${keyword}`)
+    fetch(`https://v2.jokapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart&contains=${keyword}`)
       .then((response) => response.json())
       .then((data) => displayKeyword(data))
-      .catch((error) => console.log(error))
+      .catch((error) => {
+        // console.log(error)
+        alert('Sorry, this feature unavailable. Please try again later.')
+      })
 }
 
