@@ -1,7 +1,7 @@
 # User Stories
 
 #### API: 
-jokes https://jokeapi.dev/
+<!-- jokes https://jokeapi.dev/ -->
 jokes with categories https://github.com/15Dkatz/official_joke_api
 puns https://www.punapi.rest/
 
