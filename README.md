@@ -21,7 +21,7 @@ The Joke & Fact Explorer App is a web application that offers users a delightful
 2. Open the index.html file in a web browser.
 
 ### Usage
-- Click on the "Random Joke" button to get a quick laugh.
+- Click on the ``Random Joke`` or ``Random Programming Joke`` button to get a quick laugh.
 - Explore category-specific jokes using the provided options.
 - Use the keyword search to find jokes related to specific topics.
 - Discover amusing and useless facts in the dedicated facts section.

@@ -1,9 +1,14 @@
-html,
+
 body {
   color: #0f0e0e;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url('https://m.media-amazon.com/images/I/51wqTuhr3+L._AC_SX679_.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 } 
 
 a {
@@ -16,8 +21,8 @@ a {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 8px 50px 8px 40px;
-  background-color: rgb(151, 255, 151);
-  color: darkcyan;
+  /* background-color: rgba(255, 255, 255, 0.484); */
+  color: rgba(0, 0, 0, 0.68);
 }
 
 .title {
@@ -35,6 +40,7 @@ a {
 .link {
   /* border: 2px solid red; */
   text-align: right;
+  
 }
 
 .buttons-forms-container {
@@ -51,9 +57,10 @@ a {
   /* border: 2px solid red; */
   display: block;
   text-align: center;
-  padding: 15px;
-  margin: 10px;
-
+  padding: 10px;
+  margin: 0 auto;
+  width: 50%;
+  color: rgb(253, 251, 237);
 }
 
 .keyword-form {
@@ -67,12 +74,10 @@ a {
 
 .joke-container {
   margin: 0 auto;
-  background-color: rgba(174, 255, 174, 0.456);
+  background-color: rgba(230, 230, 230, 0.456);
   font-size: 22px;
-  box-shadow: 2px 2px 7px 1px #008a3a;
+  box-shadow: 2px 2px 7px 1px #f2f2f2;
 }
-
-
 
 
 #make-me-laugh-button {
