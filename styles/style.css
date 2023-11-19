@@ -5,23 +5,29 @@ body {
   margin: 0;
   padding: 0;
 } 
+
+a {
+  text-decoration: none;
+}
+
 .navbar {
-  /* border: 2px solid red; */
+  /* box-shadow: 2px 2px 7px 1px #CE5937; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 8px 50px 8px 40px;
-  background-color: rgb(194, 253, 194);
+  background-color: rgb(151, 255, 151);
   color: darkcyan;
 }
-.title{
-  font-size: 22px;
+
+.title {
+  font-size: 24px;
 }
 
 .links-container {
   /* border: 2px solid red; */
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 7px;
   font-size: 18px;
 }
@@ -31,41 +37,56 @@ body {
   text-align: right;
 }
 
+.buttons-forms-container {
+  border: 2px solid red;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.buttons-forms-container button {
+  margin: 4px;
+}
+
 .box {
   /* border: 2px solid red; */
   display: block;
   text-align: center;
   padding: 15px;
-  margin: 20px;
+  margin: 10px;
 
 }
-.or-container {
+
+.keyword-form {
   /* border: 2px solid red; */
-  padding-top: 0px;
-  padding-bottom: 0px;
-  width: 24px;
-  margin: 0 auto;
+  padding: 15px;
 }
+
 .hidden {
   display: none;
 }
 
 .joke-container {
-  border: 2px solid gray;
-  width: 700px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 109, 0.781);
-  border-radius: 12px;
+  background-color: rgba(174, 255, 174, 0.456);
   font-size: 22px;
+  box-shadow: 2px 2px 7px 1px #008a3a;
 }
 
-.category-form label {
-  /* border: 2px solid red; */
-  margin: 10px;
-}
+
+
 
 #make-me-laugh-button {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.keyword-form label {
+  font-weight: bold;
+}
+
+@media(max-width: 768px){
+  .buttons-forms-container button {
+
+  }
 }
