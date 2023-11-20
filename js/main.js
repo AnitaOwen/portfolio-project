@@ -35,13 +35,13 @@ categoryForm.addEventListener('submit', (event) => {
     main.innerHTML = 'Please select a joke category'
   } else if (selectedCategory === 'puns') {
       fetchAndDisplayPun()
-    } else if(selectedCategory === 'christmas'){
+  } else if(selectedCategory === 'christmas'){
       fetchAndDisplayChristmas()
-    } else if(selectedCategory === 'spooky'){
+  } else if(selectedCategory === 'spooky'){
       fetchAndDisplaySpooky()
-    } else if(selectedCategory === 'misc'){
+  } else if(selectedCategory === 'misc'){
       fetchAndDisplayMisc()
-    }
+  }
   categoryForm.reset()
 })
 
