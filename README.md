@@ -1,6 +1,9 @@
 # Joke & Fact Explorer App
 
 ### Description
+
+The Joke & Fact Explorer App is your go-to for quick, enjoyable breaks. Whether you're taking a break from coding or just need a laugh, the app has you covered. 
+
 The Joke & Fact Explorer App is a web application that offers users a delightful experience of exploring jokes and acquiring random useless facts. The app utilizes 3 different APIs — one for random jokes, one for jokes with categories, and another for random useless facts. Users can enjoy a diverse selection of jokes and learn intriguing and amusing facts. The app provides features such as random jokes, category-specific jokes, a keyword-based joke search, and a unique section dedicated to useless facts. With a responsive design, the app ensures an enjoyable experience on various devices.
 
 - [Explore the Joke & Fact Explorer App](https://anitaowen.github.io/portfolio-project/)
@@ -64,4 +67,6 @@ We believe that a well-timed break can enhance productivity and well-being.
 
 
 Stay tuned for updates as we work towards making the app not only entertaining but also a supportive companion in your workday!
+
+
 
