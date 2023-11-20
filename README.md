@@ -29,6 +29,19 @@ Feel free to explore, laugh, and discover useless facts with the [Joke & Fact Ex
 - Use the keyword search to find jokes related to specific topics.
 - Discover amusing and useless facts in the dedicated facts section.
 
+### Project Stretch Goals
+
+In the ongoing development of the Joke & Fact Explorer App, we're excited to share that we've successfully implemented several stretch goals to enhance the project's functionality and user experience:
+
+1. **CSS Transitions for Enhanced Effects:**
+   - Used CSS transitions to add dynamic and engaging effects to various elements on the page, providing a more interactive user interface.
+
+2. **Modularization of CSS and JavaScript:**
+   - Split the CSS and JavaScript code into multiple files, with each file dedicated to specific functionalities. This modular approach improves code organization, readability, and maintainability.
+
+We believe that these enhancements contribute to making the Joke & Fact Explorer App a more comprehensive and enjoyable platform.
+
+
 ### Contributing
 We welcome contributions! If you have suggestions, found a bug, or want to contribute new features, feel free to open an issue or submit a pull request.
 
