@@ -1,10 +1,6 @@
-.main-box {
-    /* border: 2px solid red; */
-    margin: 100px;
-}
 
 @media(max-width: 900px){
     .joke-container {
-        width: 100%
+        width: 100%;
     }
 }
