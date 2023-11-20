@@ -1,6 +1,9 @@
+.joke-container {
+    margin-top: 100px;
+}
 
 @media(max-width: 900px){
     .joke-container {
-        width: 100%;
+        width: 80%;
     }
 }

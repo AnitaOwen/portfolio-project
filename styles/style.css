@@ -23,11 +23,13 @@ button {
   box-sizing: border-box;
   border: 0;
   font-size: 14px;
+  transition: color 0.1s ease-in-out;
 }
 
 button:hover{
-  background: #fff308be;
-  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+  background: #fff3089f;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.929), 0 3px 8px 0 rgba(0,0,0,.15);
+  color: #0a0a0aab;
 }
 
 h3 {
@@ -47,10 +49,12 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+
 main p {
   color: rgb(254, 250, 4);
   font-size: 26px;
 }
+
 
 .keyword-form label {
   color: rgb(253, 250, 74);
@@ -90,6 +94,7 @@ main p {
   background-color: rgba(180, 180, 180, 0.142);
   border-radius: 5px;
   padding: 5px;
+  transition: color 0.4s ease-in-out;
 }
 
 .link:hover {
@@ -116,6 +121,12 @@ main p {
   color: rgb(253, 251, 237);
 }
 
+.form-row {
+  display: inline;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
 .keyword-form {
   /* border: 2px solid red; */
   padding: 15px;
@@ -128,8 +139,14 @@ main p {
 .joke-container {
   margin: 0 auto;
   background-color: rgba(115, 114, 114, 0.583);
-  font-size: 22px;
-  box-shadow: 0 -3px 7px 3px rgb(222, 219, 83);
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: 0 -3px 6px 2px rgb(222, 219, 83);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.joke-container:hover {
+  box-shadow: 0 -3px 6px 2px rgba(244, 241, 91, 0.526);
 }
 
 

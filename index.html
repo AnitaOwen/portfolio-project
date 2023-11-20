@@ -37,18 +37,26 @@
         <section class="form-content-container box">
             <h3>Select Category</h3>
             <form class="category-form">
-                <label for="puns">
-                    <input type="radio" id="puns" name="category" value="puns"> Puns
+                <div class="form-row">
+                    <label for="puns"> Puns
+                        <input type="radio" id="puns" name="category" value="puns">
+                        </label>
+                </div>
+                <div class="form-row">
+                    <label for="christmas"> Christmas
+                        <input type="radio" id="christmas" name="category" value="christmas"> 
                     </label>
-                <label for="christmas">
-                    <input type="radio" id="christmas" name="category" value="christmas"> Christmas
-                </label>
-                <label for="spooky">
-                    <input type="radio" id="spooky" name="category" value="spooky"> Spooky
-                </label>
-                <label for="misc">
-                    <input type="radio" id="misc" name="category" value="misc"> Misc.
-                </label>
+                </div>
+                <div class="form-row">
+                    <label for="spooky"> Spooky
+                        <input type="radio" id="spooky" name="category" value="spooky">
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label for="misc"> Misc.
+                        <input type="radio" id="misc" name="category" value="misc">
+                    </label>
+                </div>
                 <button type="submit" id="make-me-laugh-button" class="button">Make me laugh!</button>
             </form>
         </section>

@@ -30,15 +30,18 @@ categoryForm.addEventListener('submit', (event) => {
   event.preventDefault()
   const selectedCategory = event.target.category.value
 
-  if(selectedCategory === 'puns') {
-    fetchAndDisplayPun()
-  } else if(selectedCategory === 'christmas'){
-    fetchAndDisplayChristmas()
-  } else if(selectedCategory === 'spooky'){
-    fetchAndDisplaySpooky()
-  } else if(selectedCategory === 'misc'){
-    fetchAndDisplayMisc()
-  }
+  if (!selectedCategory) {
+    const main = document.querySelector('main')
+    main.innerHTML = 'Please select a joke category'
+  } else if (selectedCategory === 'puns') {
+      fetchAndDisplayPun()
+    } else if(selectedCategory === 'christmas'){
+      fetchAndDisplayChristmas()
+    } else if(selectedCategory === 'spooky'){
+      fetchAndDisplaySpooky()
+    } else if(selectedCategory === 'misc'){
+      fetchAndDisplayMisc()
+    }
   categoryForm.reset()
 })
 
