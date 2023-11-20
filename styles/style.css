@@ -121,10 +121,15 @@ main p {
   color: rgb(253, 251, 237);
 }
 
-.form-row {
+.form-option {
   display: inline;
   box-sizing: border-box;
   padding: 5px;
+  transition: color 0.2s ease;
+}
+
+.form-option:hover {
+  color: rgb(253, 253, 96);
 }
 
 .keyword-form {

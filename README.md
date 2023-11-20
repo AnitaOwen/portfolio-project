@@ -22,6 +22,8 @@ The Joke & Fact Explorer App is a web application that offers users a delightful
 2. Open the index.html file in a web browser.
 
 ### Usage
+Feel free to explore, laugh, and discover useless facts with the [Joke & Fact Explorer App](https://anitaowen.github.io/portfolio-project/)!
+
 - Click on the ``Random Joke`` or ``Random Programming Joke`` button to get a quick laugh.
 - Explore category-specific jokes using the provided options.
 - Use the keyword search to find jokes related to specific topics.
@@ -32,7 +34,21 @@ We welcome contributions! If you have suggestions, found a bug, or want to contr
 
 
 ### Acknowledgments
-Thanks to the creators of the [Official Joke API](https://github.com/15Dkatz/official_joke_api) and [Useless Facts API](https://uselessfacts.jsph.pl/) for providing the engaging content.
+Thanks to the creators of the [Official Joke API](https://github.com/15Dkatz/official_joke_api), [Useless Facts API](https://uselessfacts.jsph.pl/), and [JokeAPI](https://jokeapi.dev/) for providing the engaging content.
 
 
-Feel free to explore, laugh, and discover useless facts with the [Joke & Fact Explorer App](https://anitaowen.github.io/portfolio-project/)!
+### Future Considerations
+#### *Break Timer with Reminders*
+We believe that a well-timed break can enhance productivity and well-being.
+- A timer to help users schedule short breaks during work sessions.
+- Adjustable intervals to suit individual preferences and work patterns.
+- Automatic reminders to gently nudge users when their break time is up, encouraging a smooth transition back to work.
+
+#### *Computer Trivia Section*
+- Explore a new trivia section dedicated to computer-related questions.
+- Engage with random computer trivia to test and expand your knowledge.
+- Perfect for those moments when you want a quick mental challenge or a fun way to learn more about the tech world.
+
+
+Stay tuned for updates as we work towards making the app not only entertaining but also a supportive companion in your workday!
+
