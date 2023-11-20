@@ -191,4 +191,8 @@ main p {
   .joke-container button {
     margin-bottom: 5px;
   }
+
+  .joke-container {
+    width: 85%;
+  }
 }

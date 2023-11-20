@@ -3,3 +3,8 @@
     margin: 100px;
 }
 
+@media(max-width: 900px){
+    .joke-container {
+        width: 100%
+    }
+}
