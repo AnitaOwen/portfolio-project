@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .navbar {
   /* box-shadow: 2px 2px 7px 1px #CE5937; */
   display: grid;
@@ -91,8 +95,6 @@ a {
   font-weight: bold;
 }
 
-@media(max-width: 768px){
-  .buttons-forms-container button {
 
-  }
+@media(max-width: 768px){
 }
