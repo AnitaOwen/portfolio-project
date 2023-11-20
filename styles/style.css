@@ -19,18 +19,41 @@ button {
   cursor: pointer;
 }
 
+h3 {
+  color: rgb(253, 250, 74);
+}
+
+main p {
+  color: rgb(254, 250, 4);
+  font-size: 26px;
+}
+
+.keyword-form label {
+  color: rgb(253, 250, 74);
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .navbar {
-  /* box-shadow: 2px 2px 7px 1px #CE5937; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 8px 50px 8px 40px;
-  /* background-color: rgba(255, 255, 255, 0.484); */
-  color: rgba(0, 0, 0, 0.68);
+  color: rgba(0, 0, 0, 0.807);
+}
+
+.navbar a {
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+  background-color: rgba(165, 139, 139, 0.417);
+  ;
+  box-shadow: 2px 2px 7px 1px #f2f2f2;
+  border-radius: 4px;
+  padding: 4px;
 }
 
 .title {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .links-container {
@@ -81,7 +104,7 @@ button {
   margin: 0 auto;
   background-color: rgba(230, 230, 230, 0.456);
   font-size: 22px;
-  box-shadow: 2px 2px 7px 1px #f2f2f2;
+  box-shadow: 0 -3px 7px 3px rgb(222, 219, 83);
 }
 
 
