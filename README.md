@@ -1,4 +1,4 @@
-# Joke & Fact Explorer App
+# LOLgorithms - Joke & Fact Explorer App
 
 ### Description
 
